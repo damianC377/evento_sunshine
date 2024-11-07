@@ -12,6 +12,16 @@
           $("#principal").load("file/inicio.html");
         });
     </script>
+    <script>
+        $(document).ready(function() {
+            $("#inicio").click(function (){
+                $("principal").load("file/inicio.html");
+            });
+            $("#eventos").click(function (){
+                $("principal").load("file/eventos.html");
+            });
+        });
+    </script>
 </head>
 <body>
 <div id="contenedor">
