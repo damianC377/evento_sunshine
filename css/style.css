@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #0D0D0D;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+#contenedor{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    
+    margin-left: 4%;
+    margin-right: 4%;
+    
+}
+
+.logo img{ 
+    padding-top: 1%;
+    width: 10%;
+    height: 15%;
+    float: left;
+}
+
+.logo h2{
+    color: #FFFFFF;
+    font-family: mongolian;
+    display: inline-flex;
+    font-size: 2vw;
+}
+
+.logo h2 a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 20%;
+}
+
+nav{
+    margin-left: 63%;
+    padding-bottom: 1%;
+    margin-top: -3%
+}
+
+.logo nav {
+    align-items: center;
+}
+
+.logo nav ul {
+    display: flex;
+}
+
+.logo nav ul li {
+    list-style: none;
+    font-size: 1.6vw;
+    padding-left: 10px;
+}
+
+.logo nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left: 2px;
+}
+
+.logo a:hover{
+    cursor: pointer;
+    color: #db4bb5;
+}
+
+.borde{
+    border-bottom:  1px solid #BF2C98;
+    border-width: medium;
+}
+/* Se termina la parte de arriba hasta el separador del nav */
+
+section{
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+}
+
+section .banner img{
+    width: 92%;
+    height: 90%;
+    padding-top: 10px;
+    margin-left: 4%;
+}
+
+section .text{
+    width: 50%;
+    margin-left: 4%;
+    padding-top: 10px;
+}
+section .text p{
+    float: left;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+}
+
+section .text button{
+    float: left;
+    border-style: none;
+    width: 20%;
+    height: auto;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    background: #6C51A6;
+    border-radius: 10%;
+    padding: 5px;
+    margin-top: 0.5%;
+}
+
+section .text button:hover{
+    width: 21%;
+    height: auto;
+    cursor: pointer;
+    font-size: 1.2vw;    
+}
+
+/* Se empieza la segunda columna donde 
+poner las imagenes */
+aside .galery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+aside .galery img{
+    width: 100%;
+    max-width: 160px;
+    height: auto;
+    object-fit: cover;
+    padding-left: 5px;
+    border-radius: 5%;
+}
