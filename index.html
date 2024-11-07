@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunshine Event</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function () {
+          //Indica el nombre del archivo a cargar
+          $("#principal").load("file/inicio.html");
+        });
+    </script>
+</head>
+<body>
+<div id="contenedor">
+    <div class ="logo">
+    <header>
+        
+            <img src="img/Logo_EliteEvent.png">
+            <h2><a href="#" id="inicio">SunshineEvent</a></h2>
+        
+    </header>
+    <nav>
+    <ul>
+        <li><a href="#" id="eventos">Eventos</a></li>
+        <li><a href="#" id="quienessomos">Quienes somos</a></li>
+        <li><a href="#" id="contacto">Contactos</a></li>
+        <li><a href="#">Iniciar sesion</a></li>
+    </ul></nav>
+    <div class="borde"></div>
+    </div>
+    <div id="principal"></div>
+
+    <footer></footer>
+</div>
+</body>
+</html>
